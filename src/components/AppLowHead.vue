@@ -9,9 +9,9 @@ export default {
 </script>
 
 <template>
-    <div class="bg-black">
-        <div class="container text-white d-flex align-items-center"> -- > Content goes here --
-            <p class=" mygoes"></p>
+    <div class="mycolor">
+        <div class="container text-white d-flex align-items-center"> -- Content goes here --
+            <p class=" mygoes"> </p>
         </div>
     </div>
 </template>

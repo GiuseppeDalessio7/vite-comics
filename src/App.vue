@@ -41,6 +41,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.mycolor {
+  background-color: #1C1D1D;
+}
+
 .mygoes {
   width: 80px;
   height: 80px;
