@@ -1,1 +1,8 @@
 @import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --bs-blue: #0C7DED,
+    --bs-black: #1C1D1D,
+    --bs-grey: #313130,
+
+}

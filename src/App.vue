@@ -1,10 +1,24 @@
 <script >
-import HelloWorld from './components/HelloWorld.vue'
+import header from "./components/header.vue"
 
+
+export default {
+  components: {
+    header,
+    // AppHero,
+  },
+  data() {
+    return {
+      // messaggio: 'Hello Vite'
+
+    }
+  }
+}
 </script>
 
 <template>
-  <h1 class="text-center">ciao</h1>
+  <!-- <img src="./assets/img/dc-logo.pngqq" alt=""> -->
+  <header></header>
 </template>
 
 <style scoped></style>
