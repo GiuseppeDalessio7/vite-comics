@@ -1,10 +1,13 @@
 <script >
 import AppHeader from "./components/AppHeader.vue"
+import AppLowHead from "./components/AppLowHead.vue"
+
 
 
 export default {
   components: {
     AppHeader,
+    AppLowHead,
     // AppHero,
   },
   data() {
@@ -24,9 +27,10 @@ export default {
       <AppHeader></AppHeader>
     </div>
   </div>
+  <AppLowHead></AppLowHead>
 </template>
 
-<style scoped>
+<style >
 img {
   width: 4rem;
   height: 4rem;
@@ -35,5 +39,11 @@ img {
 body {
   font-family: 'Comic Neue', cursive;
   font-family: 'Open Sans', sans-serif;
+}
+
+.mygoes {
+  width: 80px;
+  height: 80px;
+
 }
 </style>
