@@ -9,7 +9,6 @@ export default {
 </script>
 
 <template>
-  <img src="../assets/img/dc-logo.png" alt="" srcset="">
   <h1>ciao</h1>
 </template>
 

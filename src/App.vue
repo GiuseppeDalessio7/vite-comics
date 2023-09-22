@@ -1,15 +1,16 @@
 <script >
-import header from "./components/header.vue"
+import AppHeader from "./components/AppHeader.vue"
 
 
 export default {
   components: {
-    header,
+    AppHeader,
     // AppHero,
   },
   data() {
     return {
-      // messaggio: 'Hello Vite'
+      imgLogo: "./assets/img/dc-logo.png",
+
 
     }
   }
@@ -17,8 +18,8 @@ export default {
 </script>
 
 <template>
-  <!-- <img src="./assets/img/dc-logo.pngqq" alt=""> -->
-  <header></header>
+  <img src="./assets/img/dc-logo.png" alt="">
+  <AppHeader></AppHeader>
 </template>
 
 <style scoped></style>
