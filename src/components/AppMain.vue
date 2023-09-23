@@ -52,13 +52,27 @@ export default {
                         <li><a href="">DC Power Visa</a> </li>
                     </ul>
                 </div>
+                <div id="logo_bg_inclinato" class="container w-75">
+
+                </div>
             </div>
+
+
+
+
+
         </div>
     </div>
 </template>
   
   
 <style scoped>
+#logo_bg_inclinato {
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 #bgimg {
     background-image: url('../assets/img/footer-bg.jpg')
 }
