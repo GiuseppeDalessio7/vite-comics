@@ -10,14 +10,14 @@ export default {
 
 <template>
     <div class="mycolor">
-        <div class="container p-4 d-flex">
-            <div class="">
+        <div class="container p-3">
+            <div class="d-flex  justify-content-between align-items-center">
+                <div class="align-items-center">
+                    <button> <span>SIGN UP NOW!</span></button>
+                </div>
+                <div class="conteiner d-flex gap-3 p-2 m-2 ">
 
-                <button>SIGN UP NOW</button>
-
-                <div class="d-flex aligns-items-center">
-
-                    <span class="text-primary">FOLLOW US</span>
+                    <span class="text-primary p-1">FOLLOW US</span>
                     <img src="../assets/img/footer-facebook.png" alt="" srcset="">
                     <img src="../assets/img/footer-twitter.png" alt="" srcset="">
                     <img src="../assets/img/footer-youtube.png" alt="" srcset="">
@@ -38,6 +38,17 @@ export default {
 img {
     width: 30px;
     height: 30px;
+}
+
+button {
+    border: 1px solid #0C7DED;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+span {
+    font-size: 15px;
 }
 </style>
   
