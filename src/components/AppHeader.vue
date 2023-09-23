@@ -44,6 +44,9 @@ export default {
           <li class="nav-item">
             <a class="nav-link active" aria="true">News</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria="true">Shop</a>
+          </li>
         </ul>
       </div>
     </div>

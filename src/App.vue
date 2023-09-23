@@ -1,6 +1,7 @@
 <script >
 import AppHeader from "./components/AppHeader.vue"
 import AppLowHead from "./components/AppLowHead.vue"
+import AppCenter from "./components/AppCenter.vue"
 
 
 
@@ -8,7 +9,7 @@ export default {
   components: {
     AppHeader,
     AppLowHead,
-    // AppHero,
+    AppCenter,
   },
   data() {
     return {
@@ -28,6 +29,9 @@ export default {
     </div>
   </div>
   <AppLowHead></AppLowHead>
+  <div>
+    <AppCenter></AppCenter>
+  </div>
 </template>
 
 <style >
