@@ -13,23 +13,23 @@ export default {
         <div class="container d-flex p-5 justify-content-between">
             <div class="">
                 <img id="imgset" src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <span>digital comics</span>
+                <span><a href="">digital comics</a></span>
             </div>
             <div>
                 <img src="../assets/img/buy-comics-merchandise.png" alt="">
-                <span>merchandise</span>
+                <span><a href="">merchandise</a></span>
             </div>
             <div>
                 <img src="../assets/img/buy-comics-subscriptions.png" alt="">
-                <span>subscriptions</span>
+                <span><a href="">subscriptions</a></span>
             </div>
             <div>
                 <img id="imgset" src="../assets/img/buy-comics-shop-locator.png" alt="">
-                <span>shoplocator</span>
+                <span><a href="">shoplocator</a></span>
             </div>
             <div>
                 <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-                <span>dc power visa</span>
+                <span><a href="">dc power visa</a></span>
             </div>
         </div>
     </div>
@@ -56,6 +56,11 @@ img {
 #imgset {
     width: 40px;
     height: 55px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 </style>
   

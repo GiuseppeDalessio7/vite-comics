@@ -17,35 +17,35 @@ export default {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Characters</a>
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#">Characters</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Comics</a>
+            <a class="nav-link " aria-current="page" href="#">Comics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Movies</a>
+            <a class="nav-link " href="#">Movies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Tv</a>
+            <a class="nav-link " href="#">Tv</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">Games</a>
+            <a class="nav-link " href="#">Games</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">Collectibles</a>
+            <a class="nav-link " href="#">Collectibles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">Videos</a>
+            <a class="nav-link " href="#">Videos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">Fans</a>
+            <a class="nav-link " href="#">Fans</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">News</a>
+            <a class="nav-link " href="#">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria="true">Shop</a>
+            <a class="nav-link " href="#">Shop</a>
           </li>
         </ul>
       </div>
@@ -53,4 +53,12 @@ export default {
   </nav>
 </template>
 
-<style></style>
+<style scoped>
+a:hover {
+  background-color: #1c92f8;
+}
+
+a:active {
+  color: white
+}
+</style>
