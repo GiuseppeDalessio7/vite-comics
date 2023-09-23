@@ -3,6 +3,7 @@ import AppHeader from "./components/AppHeader.vue"
 import AppLowHead from "./components/AppLowHead.vue"
 import AppCenter from "./components/AppCenter.vue"
 import AppMain from "./components/AppMain.vue"
+import AppFooter from "./components/AppFooter.vue"
 
 
 
@@ -12,6 +13,7 @@ export default {
     AppLowHead,
     AppCenter,
     AppMain,
+    AppFooter,
   },
   data() {
     return {
@@ -36,6 +38,9 @@ export default {
   </div>
   <div>
     <AppMain></AppMain>
+  </div>
+  <div>
+    <AppFooter></AppFooter>
   </div>
 </template>
 
