@@ -3,7 +3,7 @@ import miniCard from "../miniCard"
 export default {
     data() {
         return {
-
+            miniCard: miniCard
         }
     }
 }
