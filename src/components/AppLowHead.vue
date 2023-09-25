@@ -1,10 +1,10 @@
 <script >
-import comics from "";
+import comics from "../comics.js";
 export default {
     name: 'AppLowHead',
     data() {
         return {
-            comics: allCard
+            comics: comics
         }
     }
 }
@@ -12,20 +12,42 @@ export default {
 
 <template>
     <div class="mycolor">
-        <div class="container text-white d-flex align-items-center">
-            <div class="row cols-1 row-cols-sm-3">
+        <div class="container d-flex">
+            <div class="row cols-1 row-cols-sm-6">
                 <div class="col" v-for="card in comics">
-                    <div class="card card ">
-                        <img :src="card.thumb" alt="" class="card-img-top">
+                    <div id="mycolor" class="card pt-4">
+                        <img :src="card.thumb" alt="">
+                        <p class="text-white py-4 size_font ">{{ card.series }}</p>
                     </div>
-
                 </div>
-
-            </div> INSERIRE IMMAGINI DINAMICAMENTE
-            <p class=" mygoes"> </p>
+            </div>
+        </div>
+        <div class="text-center pb-3">
+            <button type="button" class="btn btncolor ">LOAD MORE</button>
         </div>
     </div>
 </template>
   
-<style></style>
+<style scoped>
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#mycolor {
+    background-color: #1C1D1D;
+}
+
+.btncolor {
+    background-color: #0C7DED;
+    color: white;
+    width: 200px;
+    border-radius: 0%;
+}
+
+.size_font {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+</style>
   
