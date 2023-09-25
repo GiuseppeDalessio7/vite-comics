@@ -10,17 +10,6 @@ export default {
 
 <template>
     <div id="bg_jumbo">
-
-        <!-- <img class="w-100" src="../assets/img/jumbotron.jpg" alt="" srcset=""> -->
-
-
-
-
-
-
-
-
-
     </div>
 </template>
   
