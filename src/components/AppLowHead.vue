@@ -17,12 +17,14 @@ export default {
 <template>
     <div class="mycolor">
         <div class="container">
-            <button id="btncurrent" type="button" class="btn btncolor ">CURRENT SERIES</button>
+            <button id="btncurrent" type="button" class="btn btncolor">CURRENT SERIES</button>
         </div>
         <div class="container d-flex">
             <div class="row cols-1 row-cols-sm-6">
 
-                <currentSeries :img="comics.thumb" :nomeSerie="comics.series" v-for="comics in comics"></currentSeries>
+                <currentSeries :img="comics.thumb" :nomeSerie="comics.series" :prezzo="comics.price"
+                    v-for="comics in comics">
+                </currentSeries>
                 <!-- <div class="col" v-for="card in comics"> -->
                 <!-- <div id="mycolor" class="card pt-4"> -->
                 <!-- <img :src="card.thumb" alt=""> -->
@@ -31,7 +33,7 @@ export default {
                 <!-- </div> -->
             </div>
         </div>
-        <div class="text-center pb-3">
+        <div class="text-center pb-3 pt-2">
             <button type="button" class="btn btncolor ">LOAD MORE</button>
         </div>
     </div>

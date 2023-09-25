@@ -8,8 +8,9 @@ export default {
 <template>
     <div class="col">
         <div id="mycolor" class="card pt-4">
-            <img :src="img" alt="">
-            <p class="text-white py-4 size_font ">{{ nomeSerie }}</p>
+            <img class="img-fluid" :src="img" alt="">
+            <p class="text-white w-100 pt-3 size_font ">{{ nomeSerie }}</p>
+            <!-- <p class="text-white w-100 h-50 ">{{ prezzo }}</p> -->
         </div>
     </div>
 </template>
@@ -23,21 +24,6 @@ img {
 #mycolor {
     background-color: #1C1D1D;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .size_font {
     font-size: 12px;
