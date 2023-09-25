@@ -1,5 +1,6 @@
 <script >
 import AppHeader from "./components/AppHeader.vue"
+import AppJumbotron from "./components/AppJumbotron.vue"
 import AppLowHead from "./components/AppLowHead.vue"
 import AppCenter from "./components/AppCenter.vue"
 import AppMain from "./components/AppMain.vue"
@@ -10,10 +11,12 @@ import AppFooter from "./components/AppFooter.vue"
 export default {
   components: {
     AppHeader,
+    AppJumbotron,
     AppLowHead,
     AppCenter,
     AppMain,
     AppFooter,
+
   },
   data() {
     return {
@@ -31,6 +34,9 @@ export default {
       <img class="" src="./assets/img/dc-logo.png" alt="">
       <AppHeader></AppHeader>
     </div>
+  </div>
+  <div>
+    <AppJumbotron></AppJumbotron>
   </div>
   <AppLowHead></AppLowHead>
   <div>

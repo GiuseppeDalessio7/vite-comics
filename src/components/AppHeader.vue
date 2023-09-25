@@ -36,7 +36,7 @@ export default {
             <a class="nav-link " href="#">Collectibles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Videos</a>
+            <a class="nav-link " href="https://www.dc.com/videos">Videos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#">Fans</a>
