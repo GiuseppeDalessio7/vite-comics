@@ -12,6 +12,9 @@ export default {
 
 <template>
     <div class="mycolor">
+        <div class="container">
+            <button id="btncurrent" type="button" class="btn btncolor ">CURRENT SERIES</button>
+        </div>
         <div class="container d-flex">
             <div class="row cols-1 row-cols-sm-6">
                 <div class="col" v-for="card in comics">
@@ -30,12 +33,20 @@ export default {
   
 <style scoped>
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 #mycolor {
     background-color: #1C1D1D;
+}
+
+#btncurrent {
+    margin-top: -30px;
+    margin-left: -10px;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 250px;
 }
 
 .btncolor {
