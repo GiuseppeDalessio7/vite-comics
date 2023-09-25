@@ -73,4 +73,3 @@ export default
             "type": "graphic novel",
         },
     ]
-

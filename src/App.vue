@@ -1,6 +1,7 @@
 <script >
 import AppHeader from "./components/AppHeader.vue"
 import AppJumbotron from "./components/AppJumbotron.vue"
+import currentSeries from "./components/currentSeries.vue"
 import AppLowHead from "./components/AppLowHead.vue"
 import AppCenter from "./components/AppCenter.vue"
 import AppMain from "./components/AppMain.vue"
@@ -12,10 +13,12 @@ export default {
   components: {
     AppHeader,
     AppJumbotron,
+    currentSeries,
     AppLowHead,
     AppCenter,
     AppMain,
     AppFooter,
+
 
   },
   data() {
